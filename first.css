@@ -1,0 +1,45 @@
+@font-face {
+  font-family:mySpecialFont;
+  src:url('collen.ttf');
+}
+h1{
+  color:#fdfcfb;
+  background-color: #02d9ff;
+  text-align: center;
+  font-style: normal;
+  font-size: 2em;
+  font-variant: normal;
+}
+h1{
+  font-family: mySpecialFont;
+}
+h2{
+  font-family: mySpecialFont;
+  display: inline-block;
+}
+h3{
+  font-family: mySpecialFont;
+  display: inline-block;
+}
+span{
+  background: green;
+}
+
+p{
+  border: 2px solid #470beb;
+  background: pink;
+  line-height: 20px;
+  text-align: center;
+  background-image: href="https://cdn.vox-cdn.com/thumbor/AS6mtFfRgHAOzNU2XyKSHmiXCVA=/0x0:2012x1341/1400x1400/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg";
+}
+body{
+  background-color: aqua;
+  background-repeat:repeat-y;
+  background-position: center;
+  background-attachment: fixed;
+}
+#a
+{
+  color: rgb(11, 12, 12);
+  position: static;
+}
